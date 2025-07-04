@@ -106,6 +106,10 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
 
     @Override
     public void setCurrentUser(String username) {
-        // Not implemented — for compatibility only
+    }
+
+    @Override
+    public String getCurrentUser() {
+        return null;
     }
 }
